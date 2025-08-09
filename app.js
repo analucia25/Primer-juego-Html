@@ -26,11 +26,12 @@ while(numeroDeUsuario != numeroSecreto){
         //Incrementamos el contador cuando no acierta
         intentos++;
         palabraVeces = 'veces';
-        if (intentos > 6) {
+        if (intentos > maximosIntentos) {
             alert(`Llegaste al numero maximo de intentos ${maximosIntentos} ${intentos == 1 ? 'vez' : 'veces' }.`);
             break;
         }
         //la condicion no se cumplio 
         //alert('Lo siento , no acertaste el numero');
     }
+
  }
